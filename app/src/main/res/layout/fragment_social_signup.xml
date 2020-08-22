@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+
+        <com.shobhitpuri.custombuttons.GoogleSignInButton
+            android:id="@+id/gmailSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:background="@drawable/rectangel_white"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:padding="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:textColor="@color/red"
+            android:text="@string/continue_Gmail"
+
+            />
+
+        <TextView
+            android:id="@+id/othersignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/gmailSignup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fiften_sp"
+
+            android:text="@string/other_singin"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@id/gmailSignup"
+            android:layout_marginBottom="@dimen/thiteen_dp"
+            android:layout_toLeftOf="@id/othersignin"
+            android:background="@color/sun_atlantic_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@id/gmailSignup"
+            android:layout_marginBottom="@dimen/thiteen_dp"
+            android:layout_toRightOf="@id/othersignin"
+            android:background="@color/black" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

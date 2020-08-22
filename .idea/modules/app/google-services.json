@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118161484375",
+    "firebase_url": "https://sunparcel-e3fb1.firebaseio.com",
+    "project_id": "sunparcel-e3fb1",
+    "storage_bucket": "sunparcel-e3fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118161484375:android:34e9698cf1e942594d9112",
+        "android_client_info": {
+          "package_name": "com.example.sunparcel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118161484375-mig0doqpctnf623gtirlhf0d5h2csmn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunparcel",
+            "certificate_hash": "9852a2aa66c1aae5906d6710abfd3f8bad7ee92c"
+          }
+        },
+        {
+          "client_id": "118161484375-dshqgi48e4h3v5dmhvlu95e0v0vp75k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4vxLljH4gVHybGC8QNshPCom11HRrJCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118161484375-dshqgi48e4h3v5dmhvlu95e0v0vp75k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
